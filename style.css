@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 113px;
+    margin: 10pxs;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.A{
+    border: 2px solid transparent;
+}
+
+.A:hover{
+    border: 2px solid white;
+}
+
+.address-icon{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.Address-first{
+    font-weight: 0.25rem;
+    color: #cccccc;
+    margin-left: 2px;
+}
+
+.Address-second{
+    font-weight: 0.4rem;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: green;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 530px;
+    font-size: 1.2rem;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #e09d46;
+    color: #0f1111;
+}
+
+.language{
+    display: flex;
+}
+
+.cart{
+    display: flex;
+    font-size: 30px;
+}
+
+.Y{
+    font-size:15px;
+    font-weight: bold;
+    align-items: baseline;
+}
+
+.size{
+    font-size: 100px;
+}
+
+.span{
+    font-size: 0.75rem;
+}
+
+.bra{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-oppitions p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-oppitions{
+    width: 70%;
+    font-size: 0.85rem;
+    color: white;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.X:hover{
+    text-decoration: underline;
+}
+
+.hero-section{
+    background-image: url(hero_image.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    width: 80%;
+    margin-bottom: 25px;
+    margin-left: 150px;
+
+}
+
+.hero-msg a{
+    color: hwb(189 0% 48%);
+
+.hero-msg a:hover{
+    text-decoration: underline;
+}
+
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box-image-A{
+    background-image: url(box1_image.jpg);
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+
+.box{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-image-B{
+    background-image: url(box2_image.jpg);
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+
+.box-image-C{
+    background-image: url(box3_image.jpg);
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+
+.box-image-D{
+    background-image: url(box4_image.jpg);
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+
+.box-image-E{
+    background-image: url(box5_image.jpg);
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+
+.box-image-F{
+    background-image: url(box6_image.jpg);
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+
+.box-image-G{
+    background-image: url(box7_image.jpg);
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+
+.box-image-H{
+    background-image: url(box8_image.jpg);
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+
+.X{
+    color: hwb(189 0% 48%);
+}
+
+.X:hover{
+    text-decoration: underline;
+}
